@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-rows: 200px auto 100px;
-  grid-template-columns: 1fr 20px 200px;
+  grid-template-columns: auto 20px 200px;
   max-width: 700px;
   text-align: center;
   margin: 0 auto;
@@ -21,7 +21,6 @@ header {
   background-size: contain;
   height: 150px;
   width: 50%;
-  min-width: 200px;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -124,7 +123,7 @@ footer a:hover {
 @media only screen and (max-width: 700px) {
   .wrapper {
     grid-template-rows: 250px auto auto 100px;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
 
   header {
@@ -134,7 +133,6 @@ footer a:hover {
   .logo-img {
     height: 80px;
     width: 80%;
-    min-width: 50px;
     max-width: 400px;
     padding: 20px 0;
   }
